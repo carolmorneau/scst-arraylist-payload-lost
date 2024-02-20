@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    function:
+      definition: myFunction
+    stream:
+      default:
+        producer:
+          use-native-encoding: true
